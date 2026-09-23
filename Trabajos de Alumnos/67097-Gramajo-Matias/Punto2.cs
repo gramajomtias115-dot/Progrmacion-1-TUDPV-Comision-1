@@ -29,7 +29,11 @@ for (int i = 0; i < tiempos.Length; i++)
     }
     if(tiempos[i] <= objetivos[1])
     {
-            Console.WriteLine("El juegador " + (i+1) + " Supero el segundo objetivo");
+        Console.WriteLine("El juegador " + (i+1) + " Supero el segundo objetivo");
 
+    }
+    else
+    {
+        Console.WriteLine("El juegador " + (i+1) + " No Supero ningun objetivo");
     }
 }
